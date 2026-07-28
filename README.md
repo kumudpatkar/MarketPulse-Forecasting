@@ -2,33 +2,53 @@
 
 <div align="center">
 
-## AI-Powered Sales Forecasting & Demand Intelligence Platform
+# 🚀 AI-Powered Sales Forecasting & Demand Intelligence Platform
 
-An end-to-end Machine Learning platform that predicts future sales demand, analyzes business trends, and generates actionable insights through an interactive analytics dashboard.
+An end-to-end Machine Learning platform that predicts future sales demand, analyzes business trends, and provides actionable business insights through an interactive AI analytics dashboard.
 
 <br>
 
+<a href="https://marketpulse-forecasting-8sqvgqjmxwiv7ed4jmz7qc.streamlit.app/">
+<img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg">
+</a>
+
+<br><br>
+
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)
-![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?style=for-the-badge&logo=streamlit)
+![Streamlit](https://img.shields.io/badge/Streamlit-Cloud-red?style=for-the-badge&logo=streamlit)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-AI-green?style=for-the-badge)
-![Forecasting](https://img.shields.io/badge/Time%20Series-Forecasting-orange?style=for-the-badge)
+![Time Series](https://img.shields.io/badge/Forecasting-Time%20Series-orange?style=for-the-badge)
 
 </div>
 
 
 ---
 
-# 🚀 Project Overview
+# 🌐 Live Demo
 
-**MarketPulse Forecasting** is an AI-driven retail analytics and forecasting platform designed to help businesses understand sales patterns, predict future demand, and make data-driven decisions.
+Experience the deployed application:
 
-The system combines:
+🚀 **Streamlit Application**
 
-- Machine Learning Models
-- Time-Series Forecasting
-- Interactive Data Visualization
-- Explainable AI
-- Automated Business Reporting
+https://marketpulse-forecasting-8sqvgqjmxwiv7ed4jmz7qc.streamlit.app/
+
+
+---
+
+# 📌 Project Overview
+
+**MarketPulse Forecasting** is an AI-powered retail analytics platform designed to forecast future sales demand using Machine Learning and Time-Series Forecasting techniques.
+
+The platform helps businesses:
+
+- Understand historical sales patterns
+- Predict future demand
+- Analyze product performance
+- Generate business insights
+- Support data-driven decisions
+
+
+The system integrates multiple ML models with an interactive Streamlit dashboard for real-time visualization and forecasting.
 
 
 ---
@@ -38,42 +58,49 @@ The system combines:
 
 ## 📊 Executive Analytics Dashboard
 
-- Revenue KPI monitoring
-- Sales trend analysis
-- Category performance analysis
-- Year-wise filtering
-- Interactive visual analytics
+- Revenue KPI tracking
+- Sales trend visualization
+- Category-wise performance analysis
+- Year-based filtering
+- Interactive charts and analytics
 
 
 ---
 
 ## 🤖 AI Forecasting Pipeline
 
-Multiple forecasting models are implemented:
+The platform implements multiple forecasting models:
 
-| Model | Description |
+
+| Model | Purpose |
 |---|---|
 | Linear Regression | Baseline sales prediction |
-| Random Forest | Non-linear forecasting |
-| XGBoost | Advanced gradient boosting model |
-| SARIMAX | Time-series demand forecasting |
+| Random Forest Regressor | Non-linear demand forecasting |
+| XGBoost Regressor | Advanced predictive modelling |
+| SARIMAX | Time-series forecasting |
 
 
 ---
 
-## 📈 Model Evaluation
+# 📈 Model Evaluation
 
-Performance comparison using:
+Models are evaluated using:
 
-- MAPE (Mean Absolute Percentage Error)
-- R² Score
+
+| Metric | Purpose |
+|---|---|
+| MAPE | Forecast accuracy measurement |
+| R² Score | Prediction performance evaluation |
+
+
+The system compares model performance and identifies the best forecasting approach.
 
 
 ---
 
-## 🔍 Explainable AI
+# 🔍 Explainable AI
 
-Provides:
+The platform provides:
 
 - Feature importance analysis
 - Model interpretation
@@ -83,13 +110,14 @@ Provides:
 
 ---
 
-## 📥 Automated Reporting
+# 📥 Automated Reporting
 
-Features:
+Users can:
 
-- Forecast CSV generation
-- Downloadable reports
-- Power BI compatible exports
+- Generate future sales forecasts
+- Download prediction reports
+- Export CSV files
+- Use data for BI tools like Power BI
 
 
 ---
@@ -98,33 +126,63 @@ Features:
 
 
 ```
-Raw Sales Data
+                Raw Sales Dataset
 
-       ↓
+                       ↓
 
-Data Cleaning & Processing
+             Data Cleaning & Processing
 
-       ↓
+                       ↓
 
-Exploratory Data Analysis
+             Exploratory Data Analysis
 
-       ↓
+                       ↓
 
-Feature Engineering
+              Feature Engineering
 
-       ↓
+                       ↓
 
-Model Training
+              Model Training
 
-       ↓
+                       ↓
 
-Forecast Generation
+            Forecast Generation
 
-       ↓
+                       ↓
 
-Interactive Dashboard
+          Interactive Streamlit Dashboard
 
-       ↓
+                       ↓
+
+             Business Intelligence
+```
+
+
+---
+
+# 🏗️ Application Architecture
+
+
+```
+User
+
+ ↓
+
+Streamlit Dashboard
+
+ ↓
+
+Data Processing Layer
+
+ ↓
+
+Machine Learning Models
+
+ ↓
+
+Forecast Engine
+
+ ↓
 
 Business Insights
 ```
@@ -132,17 +190,17 @@ Business Insights
 
 ---
 
-# 🛠 Technology Stack
+# 🛠️ Technology Stack
 
 
-## Programming Language
+## Programming
 
-- Python
+🐍 Python
 
 
-## Framework
+## Dashboard Framework
 
-- Streamlit
+📊 Streamlit
 
 
 ## Machine Learning
@@ -153,7 +211,8 @@ Business Insights
 
 ## Time-Series Forecasting
 
-- Statsmodels SARIMAX
+- Statsmodels
+- SARIMAX
 
 
 ## Data Processing
@@ -177,11 +236,18 @@ Business Insights
 MarketPulse-Forecasting/
 
 │
-├── dataset/
+├── assets/
+│   ├── dashboard screenshots
 │
-├── models/
+├── forecasting/
+│   ├── preprocessing.py
+│   └── generate_forecast.py
+│
+├── plots/
 │
 ├── streamlit_app.py
+│
+├── model_training.py
 │
 ├── generate_dataset.py
 │
@@ -200,14 +266,14 @@ MarketPulse-Forecasting/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/kumudpatkar/marketpulse-forecasting.git
+git clone https://github.com/kumudpatkar/MarketPulse-Forecasting.git
 ```
 
 
-## Navigate Project
+## Navigate Project Folder
 
 ```bash
-cd marketpulse-forecasting
+cd MarketPulse-Forecasting
 ```
 
 
@@ -220,17 +286,18 @@ pip install -r requirements.txt
 
 ---
 
-# ▶️ Run Application
+# ▶️ Run Locally
 
 
-Start Streamlit dashboard:
+Start Streamlit application:
+
 
 ```bash
 streamlit run streamlit_app.py
 ```
 
 
-Open:
+Application URL:
 
 ```
 http://localhost:8501
@@ -239,14 +306,29 @@ http://localhost:8501
 
 ---
 
-# 📸 Dashboard Preview
+# ☁ Deployment
 
-## 🏠 MarketPulse Home Dashboard
+
+The application is deployed using:
+
+**Streamlit Community Cloud**
+
+Live URL:
+
+https://marketpulse-forecasting-8sqvgqjmxwiv7ed4jmz7qc.streamlit.app/
+
+
+---
+
+# 📸 Dashboard Screenshots
+
+
+## 🏠 Home Dashboard
 
 <img src="./assets/marketpulse_home1.png" width="900">
 
 
-## 📊 Executive Dashboard
+## 📊 Executive Analytics Dashboard
 
 <img src="./assets/dashboard_overview2.png" width="900">
 
@@ -256,7 +338,7 @@ http://localhost:8501
 <img src="./assets/predictive_models4.png" width="900">
 
 
-## 📈 Revenue By Category Analysis
+## 📈 Revenue Analysis
 
 <img src="./assets/revenue_by_category3.png" width="900">
 
@@ -266,36 +348,35 @@ http://localhost:8501
 <img src="./assets/data_explorer6.png" width="900">
 
 
-## 💬 AI Business Chatbot
+## 💬 AI Business Assistant
 
 <img src="./assets/bi_chatbot5.png" width="900">
+
+
+---
 
 # 🔮 Future Enhancements
 
 
-🚀 Deep Learning Forecasting
+## Deep Learning Forecasting
 
 - LSTM Networks
 - GRU Models
-- Transformer Based Forecasting
+- Transformer-based forecasting
 
 
-☁ Deployment
+## Advanced AI Features
 
-- Streamlit Cloud
-- AWS
-- Azure
-
-
-🤖 AI Business Assistant
-
-- Automated recommendations
-- Sales strategy generation
+- AI Business Recommendation Engine
+- Automated sales strategy generation
+- Intelligent demand alerts
 
 
-📡 Real-Time Analytics
+## Cloud & Real-Time Analytics
 
-- Live sales integration
+- Real-time sales integration
+- AWS/Azure deployment
+- Enterprise analytics pipeline
 
 
 ---
@@ -315,14 +396,17 @@ Artificial Intelligence & Machine Learning
 - Generative AI
 - Data Analytics
 - Full Stack Development
+- Python Development
 
 
 ---
 
 <div align="center">
 
-⭐ If you like this project, consider giving it a star!
+⭐ If you find this project useful, consider giving it a star!
 
-Built with ❤️ using Python & Artificial Intelligence
+<br>
+
+Built with ❤️ using Python, Machine Learning & Artificial Intelligence
 
 </div>
