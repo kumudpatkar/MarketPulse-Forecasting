@@ -239,23 +239,23 @@ http://localhost:8501
 
 ---
 
+
+
 # 📸 Dashboard Preview
 
+## Executive Dashboard
 
-Add your screenshots here:
-
-
-```
-assets/
-
- ├── dashboard.png
-
- └── forecasting.png
-
-```
+<img src="assets/dashboard.png" width="900">
 
 
----
+## Forecasting Results
+
+<img src="assets/forecasting.png" width="900">
+
+
+## Analytics View
+
+<img src="assets/analytics.png" width="900">
 
 # 🔮 Future Enhancements
 
