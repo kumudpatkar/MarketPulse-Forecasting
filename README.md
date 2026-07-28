@@ -239,23 +239,36 @@ http://localhost:8501
 
 ---
 
-
-
 # 📸 Dashboard Preview
 
-## Executive Dashboard
+## 🏠 MarketPulse Home Dashboard
 
-<img src="assets/dashboard.png" width="900">
-
-
-## Forecasting Results
-
-<img src="assets/forecasting.png" width="900">
+<img src="./assets/marketpulse_home1.png" width="900">
 
 
-## Analytics View
+## 📊 Executive Dashboard
 
-<img src="assets/analytics.png" width="900">
+<img src="./assets/dashboard_overview2.png" width="900">
+
+
+## 🤖 Predictive Models
+
+<img src="./assets/predictive_models4.png" width="900">
+
+
+## 📈 Revenue By Category Analysis
+
+<img src="./assets/revenue_by_category3.png" width="900">
+
+
+## 🔎 Data Explorer
+
+<img src="./assets/data_explorer6.png" width="900">
+
+
+## 💬 AI Business Chatbot
+
+<img src="./assets/bi_chatbot5.png" width="900">
 
 # 🔮 Future Enhancements
 
